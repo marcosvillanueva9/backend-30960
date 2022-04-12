@@ -7,4 +7,4 @@ function CartaPresentacion(nombre, apellido, edad, tipoTrabajo, nombreTrabajo) {
 
 CartaPresentacion("Marcos", "Villanueva", 23, "Profesor", "CoderHouse")
 
-// Que va a imprimer esto? Pregunta engañosa
+// Que va a imprimir esto? 

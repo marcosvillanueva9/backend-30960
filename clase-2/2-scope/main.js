@@ -6,4 +6,4 @@ function LocalVars(a, b) {
     console.log(variable)
 }
 
-//console.log(variable) que va a pasar?
+console.log(variable)

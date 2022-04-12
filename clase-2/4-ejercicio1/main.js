@@ -45,6 +45,9 @@ function crearMultiplicador(num) {
 
 const duplicar = crearMultiplicador(2)
 const triplicar = crearMultiplicador(3)
+const cudriplicador = crearMultiplicador(4)
 
 duplicar(4)
+duplicar(20)
 triplicar(4)
+cudriplicador(10)

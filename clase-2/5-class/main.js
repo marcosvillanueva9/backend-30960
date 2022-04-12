@@ -19,6 +19,6 @@ let persona1 = new Persona("Marcos", 23)
 
 // Cual o cuales de estas sentencias van a fallar?
 
-//1 persona1.saludoCorto
-//2 persona1.saludoCorto()
-//3 Persona.saludoCorto
+// console.log(persona1.saludoCorto)
+// console.log(persona1.saludoCorto())
+// console.log(Persona.saludoCorto)
