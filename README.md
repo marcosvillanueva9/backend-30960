@@ -10,6 +10,11 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
     * [Ejercicio 1](./clase-2/4-ejercicio1) Funciones, scope y template strings
     * [Ejercicio 2](./clase-2/6-ejercicio-2) Clases
 * [Clase 3](./clase-3) Arrow Functions, Promise, Async
+* [Clase 4](./clase-4) Delays, File Sync, File Async (Read, Write, Append, etc)
+    * [Ejercicio 1](./clase-4/2-ejercicio-1/) Mostrar Letras con timers
+    * [Ejercicio 2](./clase-4/4-ejercicio-2/) Mostrar Fecha y Hora Sincrono
+    * [Ejercicio 3](./clase-4/6-ejercicio-3/) Guardar package.json
+    * [Ejercicio 4](./clase-4/7-ejercicio-4/) Modificar Objeto package.json e imprimir Asincrono
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 
 ## Instalacion Visual Studio Code
