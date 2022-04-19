@@ -1,0 +1,18 @@
+{
+  "name": "test1",
+  "version": "0.0.1",
+  "description": "Este es nuestro primer proyecto con NPM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Comision 30960",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
