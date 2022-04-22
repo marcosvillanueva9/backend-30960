@@ -19,6 +19,10 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
     * [Ejercicio 1](./clase-5/2-ejercicio-1/) 10000 numeros random y return Objeto con los numeros
     * [Ejercicio 2](./clase-5/3-ejercicio-2/) Productos, getNombres, Precios, Promedios
     * [Ejercicio 3](./clase-5/5-ejercicio-3/) Moment, Dias de hoy a mi nacimiento
+* [Clase 5-After](./clase-5-afterclass) Review sobre Entregable 2
+* [Clase 6](./clase-6) Servidores, librerias HTTP y express
+    * [Ejercicio 1](./clase-6/2-ejercicio-1/) Servidor con libreria HTTP
+    * [Ejercicio 2](./clase-6/4-ejercicio-2/) Servidor con libreria express
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 
 ## Instalacion Visual Studio Code
@@ -79,6 +83,7 @@ nuestro proyecto.
 ```
 npm init           Create a package.json file
                    [--force|-f|--yes|-y|--scope]
+                   [-y] es para iniciativas el servidor y que no haga las preguntas sobre autor y demás
 ```
 
 #### Instalar Dependencias
