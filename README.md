@@ -3,27 +3,35 @@
 
 En este repositorio van a poder acceder a todos los ejercicios de la clase hechos por el profesor
 
-## Glosario de clases
+## Glosario
 
-* [Clase 1](./clase-1) Variables y Tipos de variables
-* [Clase 2](./clase-2) Funciones, Scope, Template Strings y Clases
-    * [Ejercicio 1](./clase-2/4-ejercicio1) Funciones, scope y template strings
-    * [Ejercicio 2](./clase-2/6-ejercicio-2) Clases
-* [Clase 3](./clase-3) Arrow Functions, Promise, Async
-* [Clase 4](./clase-4) Delays, File Sync, File Async (Read, Write, Append, etc)
-    * [Ejercicio 1](./clase-4/2-ejercicio-1/) Mostrar Letras con timers
-    * [Ejercicio 2](./clase-4/4-ejercicio-2/) Mostrar Fecha y Hora Sincrono
-    * [Ejercicio 3](./clase-4/6-ejercicio-3/) Guardar package.json
-    * [Ejercicio 4](./clase-4/7-ejercicio-4/) Modificar Objeto package.json e imprimir Asincrono
-* [Clase 5](./clase-5) Node.js, NPM, package.json
-    * [Ejercicio 1](./clase-5/2-ejercicio-1/) 10000 numeros random y return Objeto con los numeros
-    * [Ejercicio 2](./clase-5/3-ejercicio-2/) Productos, getNombres, Precios, Promedios
-    * [Ejercicio 3](./clase-5/5-ejercicio-3/) Moment, Dias de hoy a mi nacimiento
-* [Clase 5-After](./clase-5-afterclass) Review sobre Entregable 2
-* [Clase 6](./clase-6) Servidores, librerias HTTP y express
-    * [Ejercicio 1](./clase-6/2-ejercicio-1/) Servidor con libreria HTTP
-    * [Ejercicio 2](./clase-6/4-ejercicio-2/) Servidor con libreria express
+* Clases
+  * [Clase 1](./clase-1) Variables y Tipos de variables
+  * [Clase 2](./clase-2) Funciones, Scope, Template Strings y Clases
+      * [Ejercicio 1](./clase-2/4-ejercicio1) Funciones, scope y template strings
+      * [Ejercicio 2](./clase-2/6-ejercicio-2) Clases
+  * [Clase 3](./clase-3) Arrow Functions, Promise, Async
+  * [Clase 4](./clase-4) Delays, File Sync, File Async (Read, Write, Append, etc)
+      * [Ejercicio 1](./clase-4/2-ejercicio-1/) Mostrar Letras con timers
+      * [Ejercicio 2](./clase-4/4-ejercicio-2/) Mostrar Fecha y Hora Sincrono
+      * [Ejercicio 3](./clase-4/6-ejercicio-3/) Guardar package.json
+      * [Ejercicio 4](./clase-4/7-ejercicio-4/) Modificar Objeto package.json e imprimir Asincrono
+  * [Clase 5](./clase-5) Node.js, NPM, package.json
+      * [Ejercicio 1](./clase-5/2-ejercicio-1/) 10000 numeros random y return Objeto con los numeros
+      * [Ejercicio 2](./clase-5/3-ejercicio-2/) Productos, getNombres, Precios, Promedios
+      * [Ejercicio 3](./clase-5/5-ejercicio-3/) Moment, Dias de hoy a mi nacimiento
+  * [Clase 5-After](./clase-5-afterclass) Review sobre Entregable 2
+  * [Clase 6](./clase-6) Servidores, librerias HTTP y express
+      * [Ejercicio 1](./clase-6/2-ejercicio-1/) Servidor con libreria HTTP
+      * [Ejercicio 2](./clase-6/4-ejercicio-2/) Servidor con libreria express
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
+* [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
+* [Instalacion Node](#instalacion-node)
+  * [Windows](#windows) 
+  * [Mac/Linux](#maclinux)
+* [NPM](#instalacion-visual-studio-code)
+* [Ejercicios extras](#ejercicios-para-hacer-en-js)
+* [Profesor](#profesor)
 
 ## Instalacion Visual Studio Code
 (Sos libre de utilizar cualquier IDE o editor de 
@@ -99,6 +107,13 @@ npm install <foo>  add the <foo> dependency to your project
 npm run <foo>      run the script named <foo>
 npm test           run this project's tests
 ```
+
+## Ejercicios para hacer en JS
+
+https://www.jschallenger.com/
+
+https://silentteacher.toxicode.fr
+### Contenido de las clases de Backend de CoderHouse
 
 ## Profesor
 ### Marcos Villanueva
