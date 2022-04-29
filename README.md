@@ -24,6 +24,14 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
   * [Clase 6](./clase-6) Servidores, librerias HTTP y express
       * [Ejercicio 1](./clase-6/2-ejercicio-1/) Servidor con libreria HTTP
       * [Ejercicio 2](./clase-6/4-ejercicio-2/) Servidor con libreria express
+  * [Clase 7](./clase-7) Express avanzado
+      * [Ejercicio 1](./clase-7/2-ejercicio-1/) Servidor Frases GET
+      * [Ejercicio 2](./clase-7/3-ejercicio-2/) Servidor Operaciones GET
+      * [Ejercicio 3](./clase-7/4-ejercicio-3/) Servidor Frases GET, POST, PUT & DELETE
+  * [Clase 8](./clase-8) Router & Multer
+      * [Ejercicio 1](./clase-8/2-ejercicio-1/) Router
+      * [Ejercicio 2](./clase-8/3-ejercicio-2/) 2 Routers
+      * [Ejercicio 3](./clase-8/5-ejercicio-3/) Multer
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
@@ -113,6 +121,12 @@ npm test           run this project's tests
 https://www.jschallenger.com/
 
 https://silentteacher.toxicode.fr
+
+## Link Utiles
+
+https://httpstatusdogs.com/
+
+
 ### Contenido de las clases de Backend de CoderHouse
 
 ## Profesor
