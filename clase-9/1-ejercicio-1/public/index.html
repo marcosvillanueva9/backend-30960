@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos Personales</title>
+</head>
+
+<body>
+  <span id="1"></span>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+    integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+    crossorigin="anonymous"></script>
+  
+  <script>
+    const templateStr = `
+<h1>Datos Personales</h1>
+<ul>
+  <li>{{nombre}}</li>
+  <li>{{apellido}}</li>
+  <li>{{edad}}</li>
+  <li>{{email}}</li>
+  <li>{{telefono}}</li>
+</ul>`
+    const template = Handlebars.compile(templateStr)
+    const context = {
+      nombre: 'coder',
+      apellido: 'house',
+      edad: 25,
+      email: 'coder@house',
+      telefono: '12345678'
+    }
+    const html = template(context)
+    document.getElementById('1').innerHTML = html
+  </script>
+</body>
+
+</html>

@@ -32,6 +32,10 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
       * [Ejercicio 1](./clase-8/2-ejercicio-1/) Router
       * [Ejercicio 2](./clase-8/3-ejercicio-2/) 2 Routers
       * [Ejercicio 3](./clase-8/5-ejercicio-3/) Multer
+  * [Clase 9](./clase-9) Motores de plantillas
+      * [Ejercicio 1](./clase-9/1-ejercicio-1/) Motor de plantilla en el cliente
+      * [Ejercicio 2](./clase-9/2-ejercicio-2/) Motor de plantilla custom
+      * [Ejercicio 3](./clase-9/3-ejercicio-3/) Handlebars en el servidor
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
@@ -125,6 +129,8 @@ https://silentteacher.toxicode.fr
 ## Link Utiles
 
 https://httpstatusdogs.com/
+
+https://handlebarsjs.com/
 
 
 ### Contenido de las clases de Backend de CoderHouse
