@@ -1,0 +1,18 @@
+<h2 style="color:crimson;">Historial</h2>
+
+<% if(personas.length > 0){ %>
+    <div class="table-responsive">
+        <table class="table table-dark">
+            <tr style="color: yellow;"> <th>Nombre</th> <th>Apellido</th> <th>Edad</th> </tr>
+            <% for (const persona of personas) {%>
+            <tr>
+                <td><%=persona.nombre%></td>
+                <td><%=persona.apellido%></td>
+                <td><%=persona.edad%></td>
+            </tr>
+            <%};%>
+        </table>
+    </div>
+<% } else{ %>
+    <h3 class="alert alert-danger">no se encontraron datos</h1>
+<% } %>
