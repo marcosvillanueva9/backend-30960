@@ -36,6 +36,11 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
       * [Ejercicio 1](./clase-9/1-ejercicio-1/) Motor de plantilla en el cliente
       * [Ejercicio 2](./clase-9/2-ejercicio-2/) Motor de plantilla custom
       * [Ejercicio 3](./clase-9/3-ejercicio-3/) Handlebars en el servidor
+  * [Clase 9-after](./clase-9-afterclass) Review sobre Entregable 3
+  * [Clase 10](./clase-10) Pug & Ejs
+      * [Ejercicio 1](./clase-10/2-ejercicio-1/) Motor de plantilla Pug
+      * [Ejercicio 2](./clase-10/4-ejercicio-3/) Motor de plantilla Ejs 
+      * [Ejercicio 3](./clase-10/5-ejercicio-3/) Formulario con Ejs
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
