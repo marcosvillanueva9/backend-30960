@@ -1,0 +1,17 @@
+{
+  "name": "2-ejercicio-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "color.js",
+  "scripts": {
+    "conv": "./node_modules/.bin/babel color.js -o color.js5.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/preset-env": "^7.17.12"
+  }
+}
