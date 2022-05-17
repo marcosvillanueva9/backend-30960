@@ -45,6 +45,9 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
       * [Ejercicio 1](./clase-11/2-ejercicio-1/) Websockets
   * [Clase 12](./clase-12) Websockets chat en glitch
       * [Ejercicio 1](./clase-12/2-ejercicio-1/) Chat con websockets
+  * [Clase 13](./clase-13) Babel & TypeScript
+      * [Ejercicio 1](./clase-13/2-ejercicio-1/) Babel
+      * [Ejercicio 2](./clase-13/4-ejercicio-2/) TypeScript
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
