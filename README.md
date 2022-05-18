@@ -48,6 +48,7 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
   * [Clase 13](./clase-13) Babel & TypeScript
       * [Ejercicio 1](./clase-13/2-ejercicio-1/) Babel
       * [Ejercicio 2](./clase-13/4-ejercicio-2/) TypeScript
+  * [Clase 13-after](./clase-13-afterclass/) Review sobre entregable websockets
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
