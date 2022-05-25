@@ -1,0 +1,1 @@
+setTimeout((()=>{console.log("Hola")}),1e3),setTimeout((()=>{console.log("Como")}),2e3),setTimeout((()=>{console.log("Estan?")}),3e3);
