@@ -1,0 +1,17 @@
+levantar servidor mongo
+mongod --config /usr/local/etc/mongod.conf
+
+ejecutar mongo cli
+mongo
+
+------------------------------------------------------------------------------------------------------------
+
+1) use mibase
+
+2) db.usuarios.insert([{nombre: 'Juan', apellido: 'Perez', edad: 23, email: 'jp@gmail.com'}])
+
+3) db.usuarios.insert([{nombre: 'Pedro', apellido: 'Mei', edad: 21, email: 'pm@gmail.com'},{nombre: 'Juana', apellido: 'Suarez', edad: 25, email: 'js@gmail.com'}])
+
+4) show collections
+
+5) db.usuarios.find()

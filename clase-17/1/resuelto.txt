@@ -1,0 +1,41 @@
+levantar servidor mongo
+mongod --config /usr/local/etc/mongod.conf
+mongod --dbpath=/Users/mvillanueva/js/db    
+
+ejecutar mongo cli
+mongo
+
+------------------------------------------------------------------------------------------------------------
+
+1)  crear una carpeta por ej: /Users/mvillanueva/js/base
+
+2)  mongod --dbpath=/Users/mvillanueva/js/base
+    mongod --dbpath "/Users/mvillanueva/js/base"
+
+3)  mongo
+
+4)  show databases
+    show dbs
+
+5)  use sistema
+
+6)  db.usuarios.insert({nombre: 'marcos', edad: 23})
+
+7)  db.usuarios.find()
+
+8)  show collections
+
+9)  db.usuarios.insert({nombre: 'Juan Ignacio', edad: 20})
+    db.usuarios.insert({nombre: 'Florencia Russo', edad: 23})
+    db.usuarios.insert({nombre: 'Toby Ceballos', edad: 17})
+
+10) db.usuarios.find()
+
+11) db.productos.insert({nombre: 'Leche', precio: 140.23, stock: 10})
+    db.productos.insert({nombre: 'Harina', precio: 60.99, stock: 23})
+    db.productos.insert({nombre: 'Fideos sin tacc', precio: 300.12, stock: 32})
+    db.productos.insert({nombre: 'Crema', precio: 80.23, stock: 41})
+
+12) show collections
+
+13) db.productos.find()

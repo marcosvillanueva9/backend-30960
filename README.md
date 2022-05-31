@@ -52,7 +52,12 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
   * [Clase 14](./clase-14) Webpack & Typescript
       * [Ejercicio 1](./clase-14/2-ejercicio-1/) Webpack
       * [Ejercicio 2](./clase-14/4-ejercicio-2/) Webpack con TypeScript
-  * [Clase 15](./clase-15) SQL 
+  * [Clase 15](./clase-15) SQL
+  * [Clase 16](./clase-16) Knex & SQLite3
+      * [Ejercicio 1](./clase-16/2-ejercicio-1/) Knex
+  * [Clase 17](./clase-17) NoSQL - MongoDB
+      * [Ejercicio 1](./clase-17/1/) Mongo CLI
+      * [Ejercicio 2](./clase-17/2/) Mongo Robo 3T
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
