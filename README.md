@@ -58,6 +58,11 @@ En este repositorio van a poder acceder a todos los ejercicios de la clase hecho
   * [Clase 17](./clase-17) NoSQL - MongoDB
       * [Ejercicio 1](./clase-17/1/) Mongo CLI
       * [Ejercicio 2](./clase-17/2/) Mongo Robo 3T
+  * [Clase 17-after](./clase-17-afterclass) Review sobre entregable SQL
+  * [Clase 18](./clase-18) CRUD en MongoDB
+      * [Ejercicio 1](./clase-18/1-ejercicio-1) Ejercicio CRUD 1
+      * [Ejercicio 2](./clase-18/2-ejercicio-2) Ejercicio CRUD 2
+      * [Ejercicio 2](./clase-18/3-ejercicio-3) Ejercicio CRUD 3
 * [Funny JS](./funny-JS) Cosas curiosas de JavaScript
 * [Instalacion Visual Studio Code](#instalacion-visual-studio-code)
 * [Instalacion Node](#instalacion-node)
