@@ -1,0 +1,19 @@
+1- use empresa
+
+2- db.createCollection('clientes')
+
+3- db.clientes.insertOne({nombre: 'Toby', edad: 18})
+
+4- db.clientes.insertMany([{nombre: 'Toby', edad: 18}, {nombre: 'Lucas', edad: 28}, {nombre: 'Juan', edad: 38}])
+
+5- db.articulos.insertMany([{nombre: 'Pantalones', precio: 100, stock: 3}, {nombre: 'Camisas', precio: 50, stock: 6}, {nombre: 'Pantalones', precio: 100, stock: 1}])
+
+6- show collections
+
+7- db.clientes.find()
+   db.articulos.find()
+
+8- 629800683248285373c2e1ab (probar en https://steveridout.com/mongo-object-time/ )
+
+9- db.articulos.estimatedDocumentCount()
+   db.articulos.find().count()

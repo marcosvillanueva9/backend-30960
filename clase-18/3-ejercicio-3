@@ -1,0 +1,5 @@
+db.createUser({user: 'encargado',pwd: 'qwerty123',roles: [{role: 'readWrite',db: 'empresa'}]})
+
+db.createUser({user: 'cliente',pwd: 'qwerty123',roles: [{role: 'read',db: 'empresa'}]})
+
+db.articulos.insert({nombre: 'Laptop', precio: 1000})
