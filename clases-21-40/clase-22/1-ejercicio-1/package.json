@@ -1,0 +1,16 @@
+{
+  "name": "1-ejercicio-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "empresa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "normalizr": "^3.6.2"
+  }
+}
