@@ -1,0 +1,23 @@
+1-
+keys *
+2-
+set producto1 mesa
+set producto2 alfombra
+set producto3 armario
+set producto4 perchero
+set producto5 lampara
+3-
+keys *
+4-
+get producto1
+get producto2
+get producto3
+get producto4
+get producto5
+5-
+set producto6 reloj EX 30
+6-
+get producto6
+ttl producto6
+7-
+keys *

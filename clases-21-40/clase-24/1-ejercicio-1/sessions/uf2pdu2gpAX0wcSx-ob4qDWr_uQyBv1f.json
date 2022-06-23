@@ -1,0 +1,11 @@
+{
+    "cookie": {
+        "originalMaxAge": null,
+        "expires": null,
+        "httpOnly": true,
+        "path": "/"
+    },
+    "contador": 1,
+    "nombre": "Wilander",
+    "__lastAccess": 1655942326028
+}
