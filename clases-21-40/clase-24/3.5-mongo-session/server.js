@@ -9,7 +9,7 @@ app.use(
   session({
 
     store: MongoStore.create({
-        mongoUrl: 'mongodb+srv://coderhouse:coderhouse@cluster0.e8d1sne.mongodb.net/sessions?retryWrites=true&w=majority',
+        mongoUrl: 'yourmongoatrlasurl',
         mongoOptions: advancedOptions,
         ttl: 600,
     }),

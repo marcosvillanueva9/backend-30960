@@ -5,9 +5,9 @@ import redis from 'redis'
 import redisStore from 'connect-redis'
 const RedisStore = redisStore(session)
 // --------------------------------------//
-const REDIS_URL = 'redis-12838.c256.us-east-1-2.ec2.cloud.redislabs.com'
+const REDIS_URL = ''
 const REDIS_PORT = 12838
-const REDIS_PASSWORD = 'BqAmPBpBVkSJmosBxQFvsHMKK17NEAwr'
+const REDIS_PASSWORD = ''
 
 const client = redis.createClient({
   url: `redis://default:${REDIS_PASSWORD}@${REDIS_URL}:${REDIS_PORT}`,
