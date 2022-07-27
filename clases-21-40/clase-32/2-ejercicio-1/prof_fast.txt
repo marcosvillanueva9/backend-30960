@@ -1,0 +1,919 @@
+Statistical profiling result from fast-v8.log, (2861 ticks, 14 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     73    2.6%          /usr/lib/system/libsystem_platform.dylib
+     38    1.3%          /usr/lib/system/libsystem_pthread.dylib
+     23    0.8%          /usr/lib/system/libsystem_malloc.dylib
+     15    0.5%          /usr/lib/system/libsystem_c.dylib
+      8    0.3%          /usr/lib/libc++.1.dylib
+      2    0.1%          /usr/lib/system/libsystem_kernel.dylib
+      2    0.1%          /usr/lib/system/libdyld.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    163    5.7%    6.0%  LazyCompile: *calcularRandoms /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:27:25
+      4    0.1%    0.1%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      3    0.1%    0.1%  LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      3    0.1%    0.1%  Function: ^Readable.read node:internal/streams/readable:402:35
+      2    0.1%    0.1%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      2    0.1%    0.1%  RegExp: ; *([!#$%&'*+.^_`|~0-9A-Za-z-]+) *= *("(?:[\u000b\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\u000b\u0020-\u00ff])*"|[!#$%&'*+.^_`|~0-9A-Za-z-]+) *
+      2    0.1%    0.1%  LazyCompile: *set /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/application.js:359:23
+      2    0.1%    0.1%  LazyCompile: *header /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:777:29
+      2    0.1%    0.1%  LazyCompile: *fastparse /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/parseurl/index.js:95:20
+      2    0.1%    0.1%  LazyCompile: *endReadable node:internal/streams/readable:1327:21
+      2    0.1%    0.1%  Function: ^normalizeEncoding node:internal/util:160:27
+      2    0.1%    0.1%  Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2    0.1%    0.1%  Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      2    0.1%    0.1%  Function: ^fastparse /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/parseurl/index.js:95:20
+      1    0.0%    0.0%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      1    0.0%    0.0%  RegExp: ;\s*charset\s*=
+      1    0.0%    0.0%  LazyCompile: *writeHead node:_http_server:269:19
+      1    0.0%    0.0%  LazyCompile: *resOnFinish node:_http_server:829:21
+      1    0.0%    0.0%  LazyCompile: *matchKnownFields node:_http_incoming:234:26
+      1    0.0%    0.0%  LazyCompile: *handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:136:31
+      1    0.0%    0.0%  LazyCompile: *_write node:internal/streams/writable:284:16
+      1    0.0%    0.0%  LazyCompile: *_addListener node:events:555:22
+      1    0.0%    0.0%  Function: ^slowCases node:internal/util:165:19
+      1    0.0%    0.0%  Function: ^setCharset /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/utils.js:248:41
+      1    0.0%    0.0%  Function: ^push node:internal/fixed_queue:99:7
+      1    0.0%    0.0%  Function: ^onEofChunk node:internal/streams/readable:545:20
+      1    0.0%    0.0%  Function: ^getObserverType node:internal/perf/observe:119:25
+      1    0.0%    0.0%  Function: ^getEncodingOps node:buffer:681:24
+      1    0.0%    0.0%  Function: ^get node:internal/streams/writable:847:8
+      1    0.0%    0.0%  Function: ^fromString node:buffer:434:20
+      1    0.0%    0.0%  Function: ^emit node:events:475:44
+      1    0.0%    0.0%  Function: ^callback node:internal/streams/writable:551:44
+      1    0.0%    0.0%  Function: ^app.<computed> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/application.js:490:25
+      1    0.0%    0.0%  Function: ^_writeRaw node:_http_outgoing:344:19
+      1    0.0%    0.0%  Function: ^_write node:internal/streams/writable:284:16
+      1    0.0%    0.0%  Function: ^_unrefTimer node:net:437:52
+      1    0.0%    0.0%  Function: ^_dump node:_http_incoming:367:49
+      1    0.0%    0.0%  Function: ^_addListener node:events:555:22
+      1    0.0%    0.0%  Function: ^_addHeaderLine node:_http_incoming:340:24
+      1    0.0%    0.0%  Function: ^Socket.read node:net:667:33
+      1    0.0%    0.0%  Function: ^Socket._writeGeneric node:net:797:42
+      1    0.0%    0.0%  Function: ^Readable.resume node:internal/streams/readable:975:37
+      1    0.0%    0.0%  Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+
+ [C++]:
+   ticks  total  nonlib   name
+   1676   58.6%   62.1%  T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+     85    3.0%    3.1%  T _task_restartable_ranges_synchronize
+     63    2.2%    2.3%  t _Builtins_LoadIC
+     62    2.2%    2.3%  t _Builtins_MathRandom
+     57    2.0%    2.1%  t _Builtins_GrowFastSmiOrObjectElements
+     57    2.0%    2.1%  T _posix_spawn_file_actions_adddup2
+     47    1.6%    1.7%  t _Builtins_ParseInt
+     35    1.2%    1.3%  T _task_restartable_ranges_register
+     33    1.2%    1.2%  t _Builtins_BaselineOutOfLinePrologue
+     33    1.2%    1.2%  T __kernelrpc_mach_port_get_refs
+     23    0.8%    0.9%  t _Builtins_CallFunction_ReceiverIsNotNullOrUndefined
+     20    0.7%    0.7%  T _mach_port_allocate
+     18    0.6%    0.7%  t _Builtins_CallFunction_ReceiverIsNullOrUndefined
+     17    0.6%    0.6%  t _Builtins_StoreIC
+     15    0.5%    0.6%  t _Builtins_ToBooleanForBaselineJump
+     15    0.5%    0.6%  t _Builtins_Call_ReceiverIsNullOrUndefined
+     14    0.5%    0.5%  t _Builtins_KeyedLoadIC_Megamorphic
+     13    0.5%    0.5%  t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+     13    0.5%    0.5%  T ___getrlimit
+      8    0.3%    0.3%  t _Builtins_KeyedLoadIC
+      8    0.3%    0.3%  t _Builtins_GetProperty
+      8    0.3%    0.3%  t _Builtins_CallFunction_ReceiverIsAny
+      7    0.2%    0.3%  t _Builtins_Call_ReceiverIsNotNullOrUndefined
+      6    0.2%    0.2%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      6    0.2%    0.2%  t _Builtins_LoadIC_Megamorphic
+      5    0.2%    0.2%  t _Builtins_StrictEqual_Baseline
+      5    0.2%    0.2%  t _Builtins_KeyedStoreIC_Megamorphic
+      5    0.2%    0.2%  t _Builtins_Call_ReceiverIsAny
+      5    0.2%    0.2%  T _socket
+      4    0.1%    0.1%  t _Builtins_LoadIC_NoFeedback
+      4    0.1%    0.1%  t _Builtins_Call_ReceiverIsNullOrUndefined_Baseline_Compact
+      4    0.1%    0.1%  t _Builtins_Add_Baseline
+      3    0.1%    0.1%  t _Builtins_RecordWriteEmitRememberedSetSaveFP
+      3    0.1%    0.1%  t _Builtins_KeyedStoreIC
+      3    0.1%    0.1%  t _Builtins_CallBoundFunction
+      2    0.1%    0.1%  t _Builtins_StringPrototypeTrim
+      2    0.1%    0.1%  t _Builtins_StringPrototypeEndsWith
+      2    0.1%    0.1%  t _Builtins_StringAdd_CheckNone
+      2    0.1%    0.1%  t _Builtins_StrictEqual_WithFeedback
+      2    0.1%    0.1%  t _Builtins_RegExpPrototypeTestFast
+      2    0.1%    0.1%  t _Builtins_RegExpPrototypeTest
+      2    0.1%    0.1%  t _Builtins_RegExpPrototypeExec
+      2    0.1%    0.1%  t _Builtins_ObjectPrototypeHasOwnProperty
+      2    0.1%    0.1%  t _Builtins_InterpreterEntryTrampoline
+      2    0.1%    0.1%  t _Builtins_FastNewClosure
+      2    0.1%    0.1%  t _Builtins_DivideSmi_Baseline
+      2    0.1%    0.1%  t _Builtins_CreateShallowObjectLiteral
+      2    0.1%    0.1%  t _Builtins_CompileLazy
+      2    0.1%    0.1%  t _Builtins_Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+      2    0.1%    0.1%  t _Builtins_CallWithArrayLike
+      2    0.1%    0.1%  t _Builtins_BitwiseOrSmi_Baseline
+      2    0.1%    0.1%  t _Builtins_BaselineLeaveFrame
+      2    0.1%    0.1%  T _proc_set_dirty
+      2    0.1%    0.1%  T ___rename
+      1    0.0%    0.0%  t std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char> >::str() const
+      1    0.0%    0.0%  t node::TraceEventScope::TraceEventScope(char const*, char const*, void*)
+      1    0.0%    0.0%  t icu_70::(anonymous namespace)::toLower(int, unsigned int, char16_t*, int, char16_t const*, UCaseContext*, int, int, icu_70::Edits*, UErrorCode&)
+      1    0.0%    0.0%  t _uv__io_poll
+      1    0.0%    0.0%  t __pthread_mutex_check_init_slow
+      1    0.0%    0.0%  t _Builtins_ToString
+      1    0.0%    0.0%  t _Builtins_Subtract_Baseline
+      1    0.0%    0.0%  t _Builtins_StringSubstring
+      1    0.0%    0.0%  t _Builtins_StringPrototypeSubstring
+      1    0.0%    0.0%  t _Builtins_StringEqual
+      1    0.0%    0.0%  t _Builtins_StoreICBaseline
+      1    0.0%    0.0%  t _Builtins_StoreFastElementIC_Standard
+      1    0.0%    0.0%  t _Builtins_LoadJoinElement_FastSmiOrObjectElements_0
+      1    0.0%    0.0%  t _Builtins_LoadICTrampoline
+      1    0.0%    0.0%  t _Builtins_LoadICBaseline
+      1    0.0%    0.0%  t _Builtins_LoadGlobalIC
+      1    0.0%    0.0%  t _Builtins_LessThan_Baseline
+      1    0.0%    0.0%  t _Builtins_LdaGlobalHandler
+      1    0.0%    0.0%  t _Builtins_KeyedLoadIC_PolymorphicName
+      1    0.0%    0.0%  t _Builtins_KeyedLoadICBaseline
+      1    0.0%    0.0%  t _Builtins_InstanceOf_Baseline
+      1    0.0%    0.0%  t _Builtins_Increment_Baseline
+      1    0.0%    0.0%  t _Builtins_GetNamedPropertyHandler
+      1    0.0%    0.0%  t _Builtins_FunctionPrototypeHasInstance
+      1    0.0%    0.0%  t _Builtins_FindOrderedHashMapEntry
+      1    0.0%    0.0%  t _Builtins_FastNewFunctionContextFunction
+      1    0.0%    0.0%  t _Builtins_FastFunctionPrototypeBind
+      1    0.0%    0.0%  t _Builtins_DefineNamedOwnICBaseline
+      1    0.0%    0.0%  t _Builtins_DefineNamedOwnIC
+      1    0.0%    0.0%  t _Builtins_CreateShallowArrayLiteral
+      1    0.0%    0.0%  t _Builtins_CreateRegExpLiteral
+      1    0.0%    0.0%  t _Builtins_CreateFunctionContextHandler
+      1    0.0%    0.0%  t _Builtins_ConstructFunction
+      1    0.0%    0.0%  t _Builtins_Construct
+      1    0.0%    0.0%  t _Builtins_CallVarargs
+      1    0.0%    0.0%  t _Builtins_ArraySingleArgumentConstructor_Holey_DisableAllocationSites
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypeShift
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypePush
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypeJoin
+      1    0.0%    0.0%  T node::ParseEncoding(v8::Isolate*, v8::Local<v8::Value>, node::encoding)
+      1    0.0%    0.0%  T node::NodeArrayBufferAllocator::Allocate(unsigned long)
+      1    0.0%    0.0%  T node::InternalCallbackScope::InternalCallbackScope(node::Environment*, v8::Local<v8::Object>, node::async_context const&, int)
+      1    0.0%    0.0%  T node::AsyncWrap::IsDoneInitializing() const
+      1    0.0%    0.0%  T _uv_hrtime
+      1    0.0%    0.0%  T _uv_buf_init
+      1    0.0%    0.0%  T _mig_get_reply_port
+
+ [Summary]:
+   ticks  total  nonlib   name
+    222    7.8%    8.2%  JavaScript
+   2464   86.1%   91.3%  C++
+    268    9.4%    9.9%  GC
+    161    5.6%          Shared libraries
+     14    0.5%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   1585   72.6%   55.4%  T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+    100    4.6%    3.5%  t _Builtins_MathRandom
+     61    2.8%    2.1%  t _Builtins_LoadIC
+     59    2.7%    2.1%  t _Builtins_GrowFastSmiOrObjectElements
+     47    2.2%    1.6%  t _Builtins_ParseInt
+     26    1.2%    0.9%  t _Builtins_BaselineOutOfLinePrologue
+     23    1.1%    0.8%  t _Builtins_KeyedLoadIC_Megamorphic
+     22    1.0%    0.8%  t _Builtins_CallFunction_ReceiverIsNotNullOrUndefined
+     17    0.8%    0.6%  t _Builtins_StoreIC
+     17    0.8%    0.6%  t _Builtins_CallFunction_ReceiverIsNullOrUndefined
+     13    0.6%    0.5%  t _Builtins_ToBooleanForBaselineJump
+     12    0.5%    0.4%  t _Builtins_Call_ReceiverIsNullOrUndefined
+     12    0.5%    0.4%  t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      9    0.4%    0.3%  t _Builtins_KeyedLoadIC
+      9    0.4%    0.3%  T __kernelrpc_mach_port_get_refs
+      8    0.4%    0.3%  t _Builtins_ObjectKeys
+      8    0.4%    0.3%  t _Builtins_KeyedStoreIC_Megamorphic
+      8    0.4%    0.3%  t _Builtins_GetProperty
+      8    0.4%    0.3%  t _Builtins_CallFunction_ReceiverIsAny
+      7    0.3%    0.2%  t _Builtins_RegExpPrototypeTest
+      7    0.3%    0.2%  t _Builtins_Call_ReceiverIsNotNullOrUndefined
+      5    0.2%    0.2%  t _Builtins_StrictEqual_Baseline
+      5    0.2%    0.2%  t _Builtins_LoadIC_Megamorphic
+      5    0.2%    0.2%  t _Builtins_Call_ReceiverIsAny
+      4    0.2%    0.1%  t _Builtins_StringPrototypeSplit
+      4    0.2%    0.1%  t _Builtins_RegExpPrototypeExec
+      4    0.2%    0.1%  t _Builtins_RecordWriteEmitRememberedSetSaveFP
+      4    0.2%    0.1%  t _Builtins_LoadIC_NoFeedback
+      4    0.2%    0.1%  t _Builtins_Add_Baseline
+      3    0.1%    0.1%  t _Builtins_ObjectSetPrototypeOf
+      3    0.1%    0.1%  t _Builtins_KeyedStoreIC
+      3    0.1%    0.1%  t _Builtins_FunctionPrototypeHasInstance
+      3    0.1%    0.1%  t _Builtins_Call_ReceiverIsNullOrUndefined_Baseline_Compact
+      3    0.1%    0.1%  t _Builtins_CallBoundFunction
+      3    0.1%    0.1%  t _Builtins_BaselineLeaveFrame
+      2    0.1%    0.1%  t _Builtins_StringPrototypeTrim
+      2    0.1%    0.1%  t _Builtins_StringPrototypeEndsWith
+      2    0.1%    0.1%  t _Builtins_StringAdd_CheckNone
+      2    0.1%    0.1%  t _Builtins_StrictEqual_WithFeedback
+      2    0.1%    0.1%  t _Builtins_RegExpPrototypeTestFast
+      2    0.1%    0.1%  t _Builtins_ReflectGet
+      2    0.1%    0.1%  t _Builtins_ObjectPrototypeHasOwnProperty
+      2    0.1%    0.1%  t _Builtins_InterpreterEntryTrampoline
+      2    0.1%    0.1%  t _Builtins_FastNewClosure
+      2    0.1%    0.1%  t _Builtins_DivideSmi_Baseline
+      2    0.1%    0.1%  t _Builtins_CompileLazy
+      2    0.1%    0.1%  t _Builtins_CallWithArrayLike
+      2    0.1%    0.1%  t _Builtins_BitwiseOrSmi_Baseline
+      1    0.0%    0.0%  t _Builtins_TypedArrayPrototypeLength
+      1    0.0%    0.0%  t _Builtins_TypedArrayConstructor
+      1    0.0%    0.0%  t _Builtins_ToString
+      1    0.0%    0.0%  t _Builtins_Subtract_Baseline
+      1    0.0%    0.0%  t _Builtins_StringSubstring
+      1    0.0%    0.0%  t _Builtins_StringPrototypeToLowerCaseIntl
+      1    0.0%    0.0%  t _Builtins_StringPrototypeSubstring
+      1    0.0%    0.0%  t _Builtins_StringPrototypeReplace
+      1    0.0%    0.0%  t _Builtins_StringPrototypeIndexOf
+      1    0.0%    0.0%  t _Builtins_StringEqual
+      1    0.0%    0.0%  t _Builtins_StoreICBaseline
+      1    0.0%    0.0%  t _Builtins_StoreFastElementIC_Standard
+      1    0.0%    0.0%  t _Builtins_ObjectGetPrototypeOf
+      1    0.0%    0.0%  t _Builtins_ObjectCreate
+      1    0.0%    0.0%  t _Builtins_MapPrototypeGet
+      1    0.0%    0.0%  t _Builtins_LoadJoinElement_FastSmiOrObjectElements_0
+      1    0.0%    0.0%  t _Builtins_LoadICTrampoline
+      1    0.0%    0.0%  t _Builtins_LoadICBaseline
+      1    0.0%    0.0%  t _Builtins_LoadGlobalIC
+      1    0.0%    0.0%  t _Builtins_LessThan_Baseline
+      1    0.0%    0.0%  t _Builtins_LdaGlobalHandler
+      1    0.0%    0.0%  t _Builtins_KeyedLoadIC_PolymorphicName
+      1    0.0%    0.0%  t _Builtins_KeyedLoadICBaseline
+      1    0.0%    0.0%  t _Builtins_InstanceOf_Baseline
+      1    0.0%    0.0%  t _Builtins_Increment_Baseline
+      1    0.0%    0.0%  t _Builtins_GetNamedPropertyHandler
+      1    0.0%    0.0%  t _Builtins_FastNewFunctionContextFunction
+      1    0.0%    0.0%  t _Builtins_FastFunctionPrototypeBind
+      1    0.0%    0.0%  t _Builtins_DefineNamedOwnIC
+      1    0.0%    0.0%  t _Builtins_DatePrototypeGetMilliseconds
+      1    0.0%    0.0%  t _Builtins_CreateShallowObjectLiteral
+      1    0.0%    0.0%  t _Builtins_CreateShallowArrayLiteral
+      1    0.0%    0.0%  t _Builtins_CreateRegExpLiteral
+      1    0.0%    0.0%  t _Builtins_CreateFunctionContextHandler
+      1    0.0%    0.0%  t _Builtins_ConstructFunction
+      1    0.0%    0.0%  t _Builtins_Construct
+      1    0.0%    0.0%  t _Builtins_Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+      1    0.0%    0.0%  t _Builtins_CallVarargs
+      1    0.0%    0.0%  t _Builtins_ArraySingleArgumentConstructor_Holey_DisableAllocationSites
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypeSlice
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypeShift
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypePush
+      1    0.0%    0.0%  t _Builtins_ArrayPrototypeJoin
+      1    0.0%    0.0%  T node::ParseEncoding(v8::Isolate*, v8::Local<v8::Value>, node::encoding)
+      1    0.0%    0.0%  T node::NodeArrayBufferAllocator::Allocate(unsigned long)
+      1    0.0%    0.0%  T node::AsyncWrap::IsDoneInitializing() const
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   1676   58.6%  T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+   1462   87.2%    T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+    725   49.6%      LazyCompile: *calcularRandoms /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:27:25
+    725  100.0%        Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+    725  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+    724   99.9%            Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+    159   10.9%      Function: ^stringify /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:1145:20
+    159  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+    159  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+    159  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     94    6.4%      Function: ^fromStringFast node:buffer:415:24
+     94  100.0%        Function: ^fromString node:buffer:434:20
+     54   57.4%          Function: ^from node:buffer:298:28
+     54  100.0%            Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+     39   41.5%          LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+     39  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1    1.1%          LazyCompile: ~from node:buffer:298:28
+      1  100.0%            Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+     48    3.3%      Function: ^writevGeneric node:internal/stream_base_commons:122:23
+     48  100.0%        Function: ^Socket._writeGeneric node:net:797:42
+     48  100.0%          Function: ^Socket._writev node:net:829:36
+     48  100.0%            Function: ^doWrite node:internal/streams/writable:399:17
+     32    2.2%      Function: ^update node:internal/crypto/hash:95:40
+     32  100.0%        Function: ^entitytag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:39:20
+     32  100.0%          Function: ^etag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:70:15
+     23   71.9%            Function: ^generateETag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/utils.js:273:32
+      9   28.1%            LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+     32    2.2%      Function: ^compileFunction node:vm:308:25
+     28   87.5%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+     27   96.4%          Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+     14   51.9%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     13   48.1%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1    3.6%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      4   12.5%        LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1017:18
+      4  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1059:37
+      4  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+     26    1.8%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+     24   92.3%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:348:29
+      5   20.8%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      5  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      4   16.7%          Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      4  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      4   16.7%          Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      4  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      3   12.5%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:520:29
+      3  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      2    8.3%          Function: ~<anonymous> node:internal/modules/esm/module_map:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      2    8.3%          Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.2%          LazyCompile: ~setupFetch node:internal/bootstrap/pre_execution:178:20
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      1    4.2%          LazyCompile: ~get BlockList node:net:1834:16
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      1    4.2%          Function: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.2%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      2    7.7%        LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:348:29
+      2  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+     25    1.7%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+     23   92.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:348:29
+      7   30.4%          Function: ~<anonymous> node:http:1:1
+      7  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      3   13.0%          Function: ~<anonymous> node:child_process:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      3   13.0%          Function: ~<anonymous> node:_http_client:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      2    8.7%          LazyCompile: ~lazyWebCrypto node:crypto:125:23
+      2  100.0%            LazyCompile: ~get node:crypto:358:8
+      2    8.7%          Function: ~<anonymous> node:internal/child_process:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.3%          LazyCompile: ~lazyLoadStreams node:fs:2879:25
+      1  100.0%            LazyCompile: ~get ReadStream node:fs:3022:17
+      1    4.3%          Function: ~<anonymous> node:tty:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.3%          Function: ~<anonymous> node:internal/cluster/round_robin_handle:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.3%          Function: ~<anonymous> node:internal/cluster/primary:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.3%          Function: ~<anonymous> node:cluster:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1    4.3%          Function: ~<anonymous> node:_http_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      2    8.0%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:262:25
+      2  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:759:24
+     20    1.4%      Function: ^Hash node:internal/crypto/hash:58:14
+     20  100.0%        Function: ^createHash node:crypto:132:20
+     20  100.0%          Function: ^entitytag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:39:20
+     20  100.0%            Function: ^etag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:70:15
+     17    1.2%      Function: ^writeHead node:_http_server:269:19
+     17  100.0%        Function: ^_implicitHeader node:_http_server:264:68
+     17  100.0%          Function: ^write_ node:_http_outgoing:730:16
+     15   88.2%            Function: ^end node:_http_outgoing:833:45
+      2   11.8%            LazyCompile: *end node:_http_outgoing:833:45
+     35    2.1%    t _Builtins_MathRandom
+     35  100.0%      LazyCompile: *calcularRandoms /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:27:25
+     35  100.0%        Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+     35  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     35  100.0%            Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+
+    163    5.7%  LazyCompile: *calcularRandoms /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:27:25
+    162   99.4%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+    162  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+    162  100.0%        Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+    162  100.0%          Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+    130   80.2%            LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+     32   19.8%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+
+     85    3.0%  T _task_restartable_ranges_synchronize
+
+     73    2.6%  /usr/lib/system/libsystem_platform.dylib
+     63   86.3%    T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+     53   84.1%      LazyCompile: *calcularRandoms /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:27:25
+     53  100.0%        Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+     53  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     53  100.0%            Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1    1.6%      LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:167:29
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.6%      LazyCompile: ~readPackage node:internal/modules/cjs/loader:291:21
+      1  100.0%        LazyCompile: ~readPackageScope node:internal/modules/cjs/loader:322:26
+      1  100.0%          LazyCompile: ~shouldUseESMLoader node:internal/modules/run_main:30:28
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:70:31
+      1    1.6%      LazyCompile: ~process_params /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:338:47
+      1  100.0%        LazyCompile: ~next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          LazyCompile: ~expressInit /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%            LazyCompile: ~handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    1.6%      LazyCompile: ~onParseComplete node:internal/url:543:25
+      1  100.0%        T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%          LazyCompile: ~URL node:internal/url:635:14
+      1  100.0%            LazyCompile: ~URL node:internal/url:635:14
+      1    1.6%      LazyCompile: ~normalizeParseOptions /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/qs/lib/parse.js:204:59
+      1  100.0%        LazyCompile: ~module.exports /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/qs/lib/parse.js:239:27
+      1  100.0%          Function: ^parseExtendedQueryString /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/utils.js:289:34
+      1  100.0%            Function: ^query /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/middleware/query.js:39:24
+      1    1.6%      LazyCompile: ~append node:internal/linkedlist:30:16
+      1  100.0%        LazyCompile: ~insert node:internal/timers:355:16
+      1  100.0%          LazyCompile: ~setUnrefTimeout node:internal/timers:377:25
+      1  100.0%            LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:237:26
+      1    1.6%      LazyCompile: ~Socket node:net:291:16
+      1  100.0%        LazyCompile: ~WriteStream node:tty:84:21
+      1  100.0%          LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:41:35
+      1  100.0%            LazyCompile: ~getStderr node:internal/bootstrap/switches/is_main_thread:156:19
+      1    1.6%      Function: ^stringify /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:1145:20
+      1  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    1.6%      Function: ^parse /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/content-type/index.js:106:16
+      1  100.0%        LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1    1.6%      Function: ^IncomingMessage node:_http_incoming:51:25
+      1  100.0%        Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.4%    t _Builtins_CloneFastJSArray
+      1  100.0%      t _Builtins_ArrayPrototypeSlice
+      1  100.0%        Function: ^clearBuffer node:internal/streams/writable:530:21
+      1  100.0%          Function: ^Writable.uncork node:internal/streams/writable:342:37
+      1  100.0%            Function: ^end node:_http_outgoing:833:45
+      1    1.4%    LazyCompile: *writevGeneric node:internal/stream_base_commons:122:23
+      1  100.0%      Function: ^Socket._writeGeneric node:net:797:42
+      1  100.0%        Function: ^Socket._writev node:net:829:36
+      1  100.0%          Function: ^doWrite node:internal/streams/writable:399:17
+      1  100.0%            Function: ^clearBuffer node:internal/streams/writable:530:21
+
+     63    2.2%  t _Builtins_LoadIC
+      3    4.8%    LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      3    4.8%    LazyCompile: *emit node:events:475:44
+      3  100.0%      Function: ^onFinish node:_http_outgoing:828:18
+      3  100.0%        Function: ^callback node:internal/streams/writable:551:44
+      3  100.0%          Function: ^afterWrite node:internal/streams/writable:488:20
+      3  100.0%            Function: ^afterWriteTick node:internal/streams/writable:483:24
+      3    4.8%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      3  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      3  100.0%        Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      3  100.0%          Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      2   66.7%            LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1   33.3%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      2    3.2%    t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      1   50.0%      Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1   50.0%      Function: ^clearIncoming node:_http_server:816:23
+      1  100.0%        Function: ^resOnFinish node:_http_server:829:21
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            Function: ^onFinish node:_http_outgoing:828:18
+      2    3.2%    LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      2  100.0%      Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2  100.0%        Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      2  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%            Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      2    3.2%    Function: ^write_ node:_http_outgoing:730:16
+      1   50.0%      LazyCompile: *end node:_http_outgoing:833:45
+      1  100.0%        LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1   50.0%      Function: ^end node:_http_outgoing:833:45
+      1  100.0%        LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      2    3.2%    Function: ^socketOnDrain node:_http_server:635:23
+      1   50.0%      LazyCompile: *emit node:events:475:44
+      1  100.0%        Function: ^afterWrite node:internal/streams/writable:488:20
+      1  100.0%          Function: ^afterWriteTick node:internal/streams/writable:483:24
+      1  100.0%            LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1   50.0%      Function: ^updateOutgoingData node:_http_server:630:28
+      1  100.0%        Function: ^_send node:_http_outgoing:319:49
+      1  100.0%          Function: ^write_ node:_http_outgoing:730:16
+      1  100.0%            Function: ^end node:_http_outgoing:833:45
+      2    3.2%    Function: ^readStart node:_http_incoming:40:19
+      2  100.0%      Function: ^parserOnMessageComplete node:_http_common:136:33
+      2    3.2%    Function: ^parserOnIncoming node:_http_server:887:26
+      2  100.0%      Function: ^parserOnHeadersComplete node:_http_common:72:33
+      2    3.2%    Function: ^onParserExecute node:_http_server:709:25
+      2    3.2%    Function: ^onEofChunk node:internal/streams/readable:545:20
+      2  100.0%      Function: ^readableAddChunk node:internal/streams/readable:242:26
+      2  100.0%        Function: ^Readable.push node:internal/streams/readable:233:35
+      1   50.0%          LazyCompile: ~onStreamRead node:internal/stream_base_commons:167:22
+      1   50.0%          Function: ^parserOnMessageComplete node:_http_common:136:33
+      2    3.2%    Function: ^emitReadable_ node:internal/streams/readable:586:23
+      1   50.0%      LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1   50.0%      Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      2    3.2%    Function: ^_send node:_http_outgoing:319:49
+      2  100.0%      Function: ^write_ node:_http_outgoing:730:16
+      1   50.0%        LazyCompile: *end node:_http_outgoing:833:45
+      1  100.0%          LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1   50.0%        Function: ^end node:_http_outgoing:833:45
+      1  100.0%          Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2    3.2%    Function: ^Socket._writeGeneric node:net:797:42
+      2  100.0%      Function: ^Socket._writev node:net:829:36
+      2  100.0%        Function: ^doWrite node:internal/streams/writable:399:17
+      2  100.0%          Function: ^clearBuffer node:internal/streams/writable:530:21
+      2  100.0%            Function: ^Writable.uncork node:internal/streams/writable:342:37
+      2    3.2%    Function: ^Readable.push node:internal/streams/readable:233:35
+      2  100.0%      Function: ^parserOnMessageComplete node:_http_common:136:33
+      2    3.2%    Function: ^EventEmitter node:events:208:22
+      2  100.0%      Function: ^Stream node:internal/streams/legacy:10:16
+      1   50.0%        Function: ^Readable node:internal/streams/readable:186:18
+      1  100.0%          Function: ^IncomingMessage node:_http_incoming:51:25
+      1  100.0%            Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1   50.0%        Function: ^OutgoingMessage node:_http_outgoing:97:25
+      1  100.0%          Function: ^ServerResponse node:_http_server:179:24
+      1  100.0%            Function: ^parserOnIncoming node:_http_server:887:26
+      1    1.6%    LazyCompile: ~emitReadable node:internal/streams/readable:575:22
+      1  100.0%      LazyCompile: ~onEofChunk node:internal/streams/readable:545:20
+      1  100.0%        LazyCompile: ~readableAddChunk node:internal/streams/readable:242:26
+      1  100.0%          LazyCompile: ~Readable.push node:internal/streams/readable:233:35
+      1  100.0%            LazyCompile: ~parserOnMessageComplete node:_http_common:136:33
+      1    1.6%    LazyCompile: ~Module._extensions..json node:internal/modules/cjs/loader:1164:39
+      1  100.0%      Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%        LazyCompile: ~Module._load node:internal/modules/cjs/loader:759:24
+      1  100.0%          Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1  100.0%            Function: ^require node:internal/modules/cjs/helpers:101:31
+      1    1.6%    LazyCompile: *writevGeneric node:internal/stream_base_commons:122:23
+      1  100.0%      Function: ^Socket._writeGeneric node:net:797:42
+      1  100.0%        Function: ^Socket._writev node:net:829:36
+      1  100.0%          Function: ^doWrite node:internal/streams/writable:399:17
+      1  100.0%            LazyCompile: *end node:_http_outgoing:833:45
+      1    1.6%    LazyCompile: *_addListener node:events:555:22
+      1  100.0%      Function: ^addListener node:events:618:58
+      1  100.0%        Function: ^Readable.on node:internal/streams/readable:886:33
+      1  100.0%          Function: ^socketListenerWrap node:_http_server:1035:37
+      1  100.0%            LazyCompile: *parserOnIncoming node:_http_server:887:26
+      1    1.6%    Function: ^trim_prefix /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:293:23
+      1  100.0%      LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        LazyCompile: *handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/application.js:165:29
+      1  100.0%            Function: ^app /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/express.js:38:21
+      1    1.6%    Function: ^spliceOne node:internal/util:394:19
+      1  100.0%      Function: ^removeListener node:events:689:28
+      1  100.0%        Function: ^Readable.removeListener node:internal/streams/readable:916:45
+      1  100.0%          Function: ^detachSocket node:_http_server:248:62
+      1  100.0%            Function: ^resOnFinish node:_http_server:829:21
+      1    1.6%    Function: ^shift node:internal/fixed_queue:108:8
+      1  100.0%      Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    1.6%    Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%      Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%        Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1    1.6%    Function: ^resume node:internal/streams/readable:989:16
+      1  100.0%      Function: ^Readable.resume node:internal/streams/readable:975:37
+      1  100.0%        Function: ^_dump node:_http_incoming:367:49
+      1  100.0%          Function: ^resOnFinish node:_http_server:829:21
+      1  100.0%            LazyCompile: *emit node:events:475:44
+      1    1.6%    Function: ^qstring /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/content-type/index.js:200:18
+      1  100.0%      Function: ^format /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/content-type/index.js:65:17
+      1  100.0%        LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1    1.6%    Function: ^parserOnMessageComplete node:_http_common:136:33
+      1    1.6%    Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.6%    Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:136:31
+      1  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/application.js:165:29
+      1  100.0%        Function: ^app /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/express.js:38:21
+      1  100.0%          LazyCompile: *parserOnIncoming node:_http_server:887:26
+      1  100.0%            Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.6%    Function: ^get node:internal/streams/writable:785:8
+      1  100.0%      Function: ^_writeRaw node:_http_outgoing:344:19
+      1  100.0%        Function: ^_send node:_http_outgoing:319:49
+      1  100.0%          Function: ^write_ node:_http_outgoing:730:16
+      1  100.0%            Function: ^end node:_http_outgoing:833:45
+      1    1.6%    Function: ^get node:_http_outgoing:162:6
+      1  100.0%      t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      1  100.0%        LazyCompile: *end node:_http_outgoing:833:45
+      1  100.0%          LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1    1.6%    Function: ^end node:_http_outgoing:833:45
+      1  100.0%      Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    1.6%    Function: ^emitBeforeScript node:internal/async_hooks:508:26
+      1  100.0%      Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    1.6%    Function: ^emit node:events:475:44
+      1  100.0%      Function: ^onFinish node:_http_outgoing:828:18
+      1  100.0%        Function: ^callback node:internal/streams/writable:551:44
+      1  100.0%          Function: ^afterWrite node:internal/streams/writable:488:20
+      1  100.0%            Function: ^afterWriteTick node:internal/streams/writable:483:24
+      1    1.6%    Function: ^callback node:internal/streams/writable:551:44
+      1  100.0%      Function: ^afterWrite node:internal/streams/writable:488:20
+      1  100.0%        Function: ^afterWriteTick node:internal/streams/writable:483:24
+      1  100.0%          LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    1.6%    Function: ^assignSocket node:_http_server:239:62
+      1  100.0%      Function: ^parserOnIncoming node:_http_server:887:26
+      1  100.0%        Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.6%    Function: ^_writeRaw node:_http_outgoing:344:19
+      1  100.0%      Function: ^_send node:_http_outgoing:319:49
+      1  100.0%        Function: ^write_ node:_http_outgoing:730:16
+      1  100.0%          Function: ^end node:_http_outgoing:833:45
+      1  100.0%            Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1    1.6%    Function: ^_implicitHeader node:_http_server:264:68
+      1  100.0%      Function: ^write_ node:_http_outgoing:730:16
+      1  100.0%        Function: ^end node:_http_outgoing:833:45
+      1  100.0%          Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1    1.6%    Function: ^_flush node:_http_outgoing:934:51
+      1  100.0%      Function: ^assignSocket node:_http_server:239:62
+      1  100.0%        Function: ^parserOnIncoming node:_http_server:887:26
+      1  100.0%          Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.6%    Function: ^_finish node:_http_server:205:52
+      1  100.0%      Function: ^end node:_http_outgoing:833:45
+      1  100.0%        LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1    1.6%    Function: ^_destroy node:internal/streams/destroy:77:18
+      1  100.0%      Function: ^destroy node:internal/streams/destroy:39:17
+      1  100.0%        Function: ^endReadableNT node:internal/streams/readable:1337:23
+      1  100.0%          LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    1.6%    Function: ^Readable.on node:internal/streams/readable:886:33
+      1  100.0%      Function: ^socketListenerWrap node:_http_server:1035:37
+      1  100.0%        Function: ^assignSocket node:_http_server:239:62
+      1  100.0%          Function: ^parserOnIncoming node:_http_server:887:26
+      1  100.0%            Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.6%    Function: ^Readable node:internal/streams/readable:186:18
+      1  100.0%      Function: ^IncomingMessage node:_http_incoming:51:25
+      1  100.0%        Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    1.6%    Function: ^Module._findPath node:internal/modules/cjs/loader:495:28
+      1  100.0%      Function: ^Module._resolveFilename node:internal/modules/cjs/loader:853:35
+      1  100.0%        Function: ^Module._load node:internal/modules/cjs/loader:759:24
+      1  100.0%          Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1  100.0%            Function: ^require node:internal/modules/cjs/helpers:101:31
+
+     62    2.2%  t _Builtins_MathRandom
+     52   83.9%    LazyCompile: *calcularRandoms /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:27:25
+     51   98.1%      Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+     51  100.0%        Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     50   98.0%          Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+     50  100.0%            Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1    2.0%          LazyCompile: ~next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1    1.9%      LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%        Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            LazyCompile: ~dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      9   14.5%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      9  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      9  100.0%        Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      9  100.0%          Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      9  100.0%            LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1    1.6%    LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        LazyCompile: ~next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%          LazyCompile: ~dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+
+     57    2.0%  t _Builtins_GrowFastSmiOrObjectElements
+     57  100.0%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+     57  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     57  100.0%        Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+     57  100.0%          Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+     45   78.9%            LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+     12   21.1%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+
+     57    2.0%  T _posix_spawn_file_actions_adddup2
+
+     47    1.6%  t _Builtins_ParseInt
+     46   97.9%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+     46  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+     46  100.0%        Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+     46  100.0%          Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+     43   93.5%            LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      3    6.5%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    2.1%    LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%      LazyCompile: ~handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        LazyCompile: ~next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%          LazyCompile: ~dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1  100.0%            LazyCompile: ~handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+
+     38    1.3%  /usr/lib/system/libsystem_pthread.dylib
+     30   78.9%    T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      4   13.3%      LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:104:28
+      4  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      4  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      4   13.3%      LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:41:35
+      4  100.0%        LazyCompile: ~getStderr node:internal/bootstrap/switches/is_main_thread:156:19
+      4  100.0%          Function: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/debug/src/node.js:1:1
+      4  100.0%            LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1059:37
+      3   10.0%      LazyCompile: ~realpathSync node:fs:2446:22
+      3  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:394:20
+      3  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:495:28
+      3  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:15:25
+      2    6.7%      Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      2  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      2  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:348:29
+      2  100.0%            Function: ~<anonymous> node:internal/fs/promises:1:1
+      1    3.3%      T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%        LazyCompile: ~getStack /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/depd/index.js:381:19
+      1  100.0%          LazyCompile: ~depd /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/depd/index.js:103:15
+      1  100.0%            Function: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/body-parser/index.js:1:1
+      1    3.3%      LazyCompile: ~value node:internal/console/constructor:321:20
+      1  100.0%        LazyCompile: ~log node:internal/console/constructor:359:6
+      1  100.0%          T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:48:33
+      1    3.3%      LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:167:29
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    3.3%      LazyCompile: ~setupPerfHooks node:internal/bootstrap/pre_execution:326:24
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    3.3%      LazyCompile: ~setupFetch node:internal/bootstrap/pre_execution:178:20
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:32:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    3.3%      LazyCompile: ~setInterval node:timers:209:21
+      1  100.0%        LazyCompile: ~setupConnectionsTracking node:_http_server:409:34
+      1  100.0%          LazyCompile: ~Server node:_http_server:419:16
+      1  100.0%            LazyCompile: ~createServer node:http:58:22
+      1    3.3%      LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.3%      LazyCompile: ~forEachCode /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/http-errors/index.js:259:38
+      1  100.0%        t _Builtins_ArrayForEach
+      1  100.0%          LazyCompile: ~populateConstructorExports /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/http-errors/index.js:258:37
+      1  100.0%            Function: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/http-errors/index.js:1:1
+      1    3.3%      LazyCompile: ~defaultTriggerAsyncIdScope node:internal/async_hooks:454:36
+      1  100.0%        LazyCompile: ~setupListenHandle node:net:1333:27
+      1  100.0%          LazyCompile: ~listenInCluster node:net:1418:25
+      1  100.0%            LazyCompile: ~Server.listen node:net:1461:35
+      1    3.3%      LazyCompile: ~createHash node:crypto:132:20
+      1  100.0%        LazyCompile: ~entitytag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:39:20
+      1  100.0%          LazyCompile: ~etag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:70:15
+      1  100.0%            LazyCompile: ~generateETag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/utils.js:273:32
+      1    3.3%      LazyCompile: ~Duplex node:internal/streams/duplex:54:16
+      1  100.0%        LazyCompile: ~Socket node:net:291:16
+      1  100.0%          LazyCompile: ~WriteStream node:tty:84:21
+      1  100.0%            LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:41:35
+      1    3.3%      LazyCompile: ~<anonymous> node:internal/fs/utils:358:35
+      1  100.0%        LazyCompile: ~<anonymous> node:internal/fs/utils:669:38
+      1  100.0%          LazyCompile: ~realpathSync node:fs:2446:22
+      1  100.0%            LazyCompile: ~toRealPath node:internal/modules/cjs/loader:394:20
+      1    3.3%      LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        Function: ^expressInit /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^trim_prefix /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:293:23
+      1    3.3%      Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:315:27
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:348:29
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      1    3.3%      Function: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/mime/mime.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1114:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    3.3%      Function: ^stringify /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:1145:20
+      1  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1    3.3%      Function: ^get node:internal/streams/duplex:102:8
+      1  100.0%        Function: ^_writeRaw node:_http_outgoing:344:19
+      1  100.0%          Function: ^_send node:_http_outgoing:319:49
+      1  100.0%            Function: ^write_ node:_http_outgoing:730:16
+
+     35    1.2%  T _task_restartable_ranges_register
+
+     33    1.2%  t _Builtins_BaselineOutOfLinePrologue
+      3    9.1%    t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      2   66.7%      Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      2  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      2  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1   33.3%      LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%        Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%          Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      3    9.1%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      3  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      3  100.0%        Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      3  100.0%          Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      2   66.7%            LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1   33.3%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      2    6.1%    Function: ^write_ node:_http_outgoing:730:16
+      2  100.0%      Function: ^end node:_http_outgoing:833:45
+      2  100.0%        Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      2  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      2  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      2    6.1%    Function: ^Timeout node:internal/timers:164:14
+      2  100.0%      Function: ^setUnrefTimeout node:internal/timers:377:25
+      2  100.0%        Function: ^setStreamTimeout node:internal/stream_base_commons:237:26
+      2  100.0%          Function: ^resOnFinish node:_http_server:829:21
+      2  100.0%            LazyCompile: *emit node:events:475:44
+      1    3.0%    LazyCompile: ~json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%      LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%        Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            LazyCompile: ~dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1    3.0%    Function: ^socketListenerWrap node:_http_server:1035:37
+      1  100.0%      LazyCompile: *parserOnIncoming node:_http_server:887:26
+      1  100.0%        Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    3.0%    Function: ^setStreamTimeout node:internal/stream_base_commons:237:26
+      1  100.0%      Function: ^resOnFinish node:_http_server:829:21
+      1  100.0%        LazyCompile: *emit node:events:475:44
+      1  100.0%          Function: ^onFinish node:_http_outgoing:828:18
+      1  100.0%            Function: ^callback node:internal/streams/writable:551:44
+      1    3.0%    Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%      Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%        Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%          Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1    3.0%    Function: ^query /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/middleware/query.js:39:24
+      1  100.0%      Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        Function: ^trim_prefix /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:136:31
+      1    3.0%    Function: ^processHeader node:_http_outgoing:501:23
+      1  100.0%      Function: ^_storeHeader node:_http_outgoing:374:22
+      1  100.0%        Function: ^writeHead node:_http_server:269:19
+      1  100.0%          Function: ^_implicitHeader node:_http_server:264:68
+      1  100.0%            Function: ^write_ node:_http_outgoing:730:16
+      1    3.0%    Function: ^parserOnMessageComplete node:_http_common:136:33
+      1    3.0%    Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%      Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+      1  100.0%        Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          Function: ^next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            Function: ^dispatch /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/route.js:98:45
+      1    3.0%    Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%      Function: ^trim_prefix /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        LazyCompile: *next /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          LazyCompile: *handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/router/index.js:136:31
+      1  100.0%            Function: ^handle /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/application.js:165:29
+      1    3.0%    Function: ^endReadableNT node:internal/streams/readable:1337:23
+      1  100.0%      LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.0%    Function: ^createHash node:crypto:132:20
+      1  100.0%      Function: ^entitytag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:39:20
+      1  100.0%        Function: ^etag /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/etag/index.js:70:15
+      1  100.0%          LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1    3.0%    Function: ^afterWrite node:internal/streams/writable:488:20
+      1  100.0%      Function: ^afterWriteTick node:internal/streams/writable:483:24
+      1  100.0%        LazyCompile: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.0%    Function: ^_writeRaw node:_http_outgoing:344:19
+      1  100.0%      Function: ^_send node:_http_outgoing:319:49
+      1  100.0%        Function: ^write_ node:_http_outgoing:730:16
+      1  100.0%          LazyCompile: *end node:_http_outgoing:833:45
+      1  100.0%            LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1    3.0%    Function: ^_send node:_http_outgoing:319:49
+      1  100.0%      Function: ^write_ node:_http_outgoing:730:16
+      1  100.0%        Function: ^end node:_http_outgoing:833:45
+      1  100.0%          Function: ^send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1    3.0%    Function: ^_dump node:_http_incoming:367:49
+      1  100.0%      Function: ^resOnFinish node:_http_server:829:21
+      1  100.0%        LazyCompile: *emit node:events:475:44
+      1  100.0%          Function: ^onFinish node:_http_outgoing:828:18
+      1  100.0%            Function: ^callback node:internal/streams/writable:551:44
+      1    3.0%    Function: ^Socket._writeGeneric node:net:797:42
+      1  100.0%      Function: ^Socket._writev node:net:829:36
+      1  100.0%        Function: ^doWrite node:internal/streams/writable:399:17
+      1  100.0%          Function: ^clearBuffer node:internal/streams/writable:530:21
+      1  100.0%            Function: ^Writable.uncork node:internal/streams/writable:342:37
+      1    3.0%    Function: ^ServerResponse node:_http_server:179:24
+      1  100.0%      Function: ^parserOnIncoming node:_http_server:887:26
+      1  100.0%        Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1    3.0%    Function: ^Readable.removeListener node:internal/streams/readable:916:45
+      1  100.0%      Function: ^detachSocket node:_http_server:248:62
+      1  100.0%        Function: ^resOnFinish node:_http_server:829:21
+      1  100.0%          Function: ^emit node:events:475:44
+      1  100.0%            Function: ^onFinish node:_http_outgoing:828:18
+      1    3.0%    Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/request.js:467:36
+      1  100.0%      t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      1  100.0%        LazyCompile: *send /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:111:25
+      1  100.0%          Function: ^json /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/express/lib/response.js:250:25
+      1  100.0%            Function: ^<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:42:28
+
+     33    1.2%  T __kernelrpc_mach_port_get_refs
+      9   27.3%    T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1   11.1%      t _Builtins_RegExpPrototypeTest
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/debug/src/node.js:34:64
+      1  100.0%          t _Builtins_ArrayFilter
+      1  100.0%            Function: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/node_modules/debug/src/node.js:1:1
+      1   11.1%      LazyCompile: ~value node:internal/console/constructor:321:20
+      1  100.0%        LazyCompile: ~log node:internal/console/constructor:359:6
+      1  100.0%          T node::JSStream::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mvillanueva/js/backend-30960/clases-21-40/clase-32/2-ejercicio-1/server.js:48:33
+      1   11.1%      LazyCompile: ~updateOutgoingData node:_http_server:630:28
+      1  100.0%        LazyCompile: ~_send node:_http_outgoing:319:49
+      1  100.0%          LazyCompile: ~write_ node:_http_outgoing:730:16
+      1  100.0%            LazyCompile: ~end node:_http_outgoing:833:45
+      1   11.1%      LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:543:30
+      1  100.0%        LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:543:30
+      1  100.0%          LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:543:30
+      1  100.0%            LazyCompile: ~packageExportsResolve node:internal/modules/esm/resolve:649:31
+      1   11.1%      LazyCompile: ~matchHeader node:_http_outgoing:524:21
+      1  100.0%        Function: ^storeHeader node:_http_outgoing:517:21
+      1  100.0%          LazyCompile: ~processHeader node:_http_outgoing:501:23
+      1  100.0%            LazyCompile: ~_storeHeader node:_http_outgoing:374:22
+      1   11.1%      LazyCompile: ~initAsyncResource node:internal/timers:154:27
+      1  100.0%        LazyCompile: ~Timeout node:internal/timers:164:14
+      1  100.0%          LazyCompile: ~setInterval node:timers:209:21
+      1  100.0%            LazyCompile: ~setupConnectionsTracking node:_http_server:409:34
+      1   11.1%      LazyCompile: ~callback node:internal/streams/writable:551:44
+      1  100.0%        LazyCompile: ~afterWrite node:internal/streams/writable:488:20
+      1  100.0%          LazyCompile: ~afterWriteTick node:internal/streams/writable:483:24
+      1  100.0%            LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:67:35
+      1   11.1%      LazyCompile: ~ServerResponse node:_http_server:179:24
+      1  100.0%        LazyCompile: ~parserOnIncoming node:_http_server:887:26
+      1  100.0%          Function: ^parserOnHeadersComplete node:_http_common:72:33
+      1   11.1%      LazyCompile: ~Readable.read node:internal/streams/readable:402:35
+      1  100.0%        Function: ^resume_ node:internal/streams/readable:996:17
+      1  100.0%          Function: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      9   27.3%    LazyCompile: *writevGeneric node:internal/stream_base_commons:122:23
+      9  100.0%      Function: ^Socket._writeGeneric node:net:797:42
+      9  100.0%        Function: ^Socket._writev node:net:829:36
+      9  100.0%          Function: ^doWrite node:internal/streams/writable:399:17
+      9  100.0%            LazyCompile: *end node:_http_outgoing:833:45
+

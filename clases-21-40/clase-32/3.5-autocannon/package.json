@@ -1,0 +1,19 @@
+{
+  "name": "3.5-autocannon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "benchmark.js",
+  "type": "module",
+  "scripts": {
+    "test": "node benchmark.js",
+    "start": "0x server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1"
+  }
+}

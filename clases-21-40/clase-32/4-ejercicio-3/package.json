@@ -1,0 +1,18 @@
+{
+  "name": "4-ejercicio-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node benchmark.js",
+    "start": "0x server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "cluster": "^0.7.7",
+    "express": "^4.18.1"
+  }
+}
