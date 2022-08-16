@@ -1,0 +1,9 @@
+{
+  "name": "1-ejercicio-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

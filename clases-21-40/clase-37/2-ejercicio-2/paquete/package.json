@@ -1,0 +1,12 @@
+{
+  "name": "mvillanueva9-basics",
+  "version": "1.0.0",
+  "description": "suma, resta, multiplicacion y division",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
