@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive palabra</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+    <p></p>
+
+    <script>
+
+        async function recibirPalabras() {
+            let {data: palabras} = await axios('http://localhost:8080/palabras')
+            console.log(palabras);
+            document.querySelector('p').innerText = palabras
+        }
+        
+        recibirPalabras()
+
+    </script>
+
+</body>
+</html>
