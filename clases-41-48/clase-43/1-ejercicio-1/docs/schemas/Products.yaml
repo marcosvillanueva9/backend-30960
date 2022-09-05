@@ -1,0 +1,23 @@
+# Products
+components:
+  schemas:
+    Product:
+      type: object
+      required:
+        - id
+        - nombre
+        - precio
+      properties:
+        id:
+          type: string
+          description: Identificador autogenerado de cada Producto
+        nombre:
+          type: string
+          description: Nombre o Titulo de un Producto
+        precio:
+          type: number
+          description: Valor numerico asignado a cada Producto
+      example:
+        id: 1661991599943-82752330
+        nombre: Figurita del mundial
+        precio: 200

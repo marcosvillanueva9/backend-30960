@@ -1,0 +1,20 @@
+paths:
+  /api/productos:
+    post:
+      summary: Crea y almacena un nuevo producto
+      tags:
+        - Productos
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/requestBodies/NewProduct'
+      responses:
+        "201":
+          description: El producto fue creado y almacenado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+            

@@ -1,0 +1,19 @@
+# NewProduct
+components: 
+  requestBodies:
+    NewProduct:
+      type: object
+      required:
+        - nombre
+        - precio
+      properties:
+        nombre:
+          type: string
+          description: Nombre o Titulo de un Producto
+        precio:
+          type: number
+          description: Valor numerico asignado a cada Producto
+        example:
+          id: 1661991599943-82752330
+          nombre: Figurita del mundial
+          precio: 200

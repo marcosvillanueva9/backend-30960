@@ -1,0 +1,36 @@
+mutation {
+  createRecordatorio(datos: {
+    titulo: "cena miercoles",
+    descripcion: "cena en casa con amigues, pizza probablemente",
+    timestamp: 1638297671329
+  }) {
+    id
+  }
+}
+
+query {
+  getRecordatorios {
+    id
+    titulo
+    descripcion
+    leido
+    timestamp
+  }
+}
+
+mutation {
+  marcarLeidoRecordatorio(id: "xxxxxxx") {
+    id
+    titulo
+    descripcion
+    leido
+    timestamp
+  }
+}
+
+mutation {
+  deleteRecordatoriosLeidos {
+    id
+    titulo
+  }
+}
