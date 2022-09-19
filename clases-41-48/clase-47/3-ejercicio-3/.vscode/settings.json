@@ -1,0 +1,9 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.path": "/home/drmaquino/.deno/bin/deno",
+  "deno.suggest.imports.hosts": {
+      "https://deno.land": true
+  }
+}
